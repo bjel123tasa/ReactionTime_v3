@@ -1,0 +1,4 @@
+#Wed Jun 03 01:13:54 CEST 2020
+base.0=/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

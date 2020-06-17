@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context=".ResultsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="@string/results"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="@color/Black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listTitle"
+        android:text="@string/list_of_times_ms"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/title"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listOfTimes"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@color/Red"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/listTitle"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mean"
+        android:text="@string/mean_ms"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/listOfTimes"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mean_res"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@color/Red"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/mean"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/std"
+        android:text="@string/standard_deviation_ms"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/mean_res"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/std_res"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@color/Red"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/std"
+        android:layout_alignParentStart="true"/>
+
+
+    <Button
+        android:id="@+id/button_line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#E70707"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/line_chart"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

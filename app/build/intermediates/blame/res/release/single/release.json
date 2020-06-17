@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-mdpi_image_black.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-mdpi/image_black.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-v24_image_red.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/drawable-v24/image_red.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/layout_activity_main.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/layout_activity_results.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/layout/activity_results.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-anydpi-v21_image_black.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-anydpi-v21/image_black.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-v24_image.jpeg.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/drawable-v24/image.jpeg"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-xxhdpi_image_black.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-xxhdpi/image_black.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/layout_activity_line_chart.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/layout/activity_line_chart.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-hdpi_image_black.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-hdpi/image_black.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/layout_single_item.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/layout/single_item.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-xhdpi_image_black.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-xhdpi/image_black.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/layout_activity_bar_chart.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/layout/activity_bar_chart.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/layout_activity_second.xml.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/layout/activity_second.xml"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-xxxhdpi_image_black.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-xxxhdpi/image_black.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/res/merged/release/drawable-ldpi_image_black.png.flat",
+        "source": "/home/tamara/StudioProjects/ReactionTime_v22/app/build/generated/res/pngs/release/drawable-ldpi/image_black.png"
+    }
+]

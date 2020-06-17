@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.reactiontime_v1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] /home/tamara/.gradle/caches/transforms-2/files-2.1/21dadf335ac8035a991bc5e1b16c722a/core-1.0.1/AndroidManifest.xml:22:18-86
+14        android:icon="@mipmap/ic_launcher"
+14-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:10:9-35
+18        android:theme="@style/SplashTheme" >
+18-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:11:9-43
+19        <activity android:name="com.example.reactiontime_v1.BarChartActivity" />
+19-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:12:9-63
+19-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:12:19-51
+20        <activity android:name="com.example.reactiontime_v1.LineChartActivity" />
+20-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:13:9-55
+20-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:13:19-52
+21        <activity android:name="com.example.reactiontime_v1.ResultsActivity" />
+21-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:14:9-53
+21-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:14:19-50
+22        <activity android:name="com.example.reactiontime_v1.SecondActivity" />
+22-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:15:9-52
+22-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:15:19-49
+23        <activity android:name="com.example.reactiontime_v1.MainActivity" >
+23-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:16:9-22:20
+23-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:16:19-47
+24            <intent-filter>
+24-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:17:13-21:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:18:17-69
+25-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:18:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:20:17-77
+27-->/home/tamara/StudioProjects/ReactionTime_v22/app/src/main/AndroidManifest.xml:20:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>
