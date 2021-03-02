@@ -28,10 +28,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    public void onClickActivity(){
+
+    public void onClickActivity() {
         Intent intent = new Intent(MainActivity.this, SecondActivity.class);
         startActivity(intent);
         finish();
     }
-    }
+}
 

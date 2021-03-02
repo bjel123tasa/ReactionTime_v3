@@ -1,4 +1,4 @@
-#Wed Jun 17 23:27:32 CEST 2020
-base.0=/home/tamara/StudioProjects/ReactionTime_v22/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Tue Mar 02 13:03:00 CET 2021
+base.0=C\:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="horizontal"
     android:layout_height="match_parent"
+    android:id="@+id/container"
     tools:context=".ResultsActivity">
 
     <TextView
@@ -93,22 +92,60 @@
         android:layout_below="@id/std"
         android:layout_alignParentStart="true"/>
 
+    <Button
+        android:id="@+id/btn_barChart"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/bar_chart"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/Red"
+        android:textColor="@color/Black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
 
     <Button
-        android:id="@+id/button_line_chart"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/btn_lineChart"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:background="#E70707"
-        android:paddingTop="5dp"
-        android:paddingBottom="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="11dp"
+        android:background="@color/Red"
+        android:padding="10dp"
         android:text="@string/line_chart"
-        android:textSize="15sp"
+        android:textColor="@color/Black"
         android:textStyle="bold" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/back"
+        android:background="@color/Red"
+        android:padding="10dp"
+        android:text="Try Again"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
 
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </FrameLayout>
 
 
 </RelativeLayout>

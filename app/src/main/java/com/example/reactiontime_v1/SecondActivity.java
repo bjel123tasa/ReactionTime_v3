@@ -1,6 +1,7 @@
 package com.example.reactiontime_v1;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -9,6 +10,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,7 +34,6 @@ public class SecondActivity extends AppCompatActivity {
     private int failsCounter = 0;
 
     private List<Integer> listOfReactionTimes = new ArrayList<>();
-
 
 
     @Override
@@ -61,11 +62,6 @@ public class SecondActivity extends AppCompatActivity {
         initData();
 
 
-
-
-
-
-
         Button button = findViewById(R.id.button_see_results);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,42 +76,49 @@ public class SecondActivity extends AppCompatActivity {
 
     public static double sum(List<Integer> list) {
         double sum = 0;
-        for (int i: list) {
+        for (int i : list) {
             sum += i;
         }
         return sum;
     }
 
-    public static double calculateSD(List<Integer> list)
-    {
+    public static double calculateSD(List<Integer> list) {
         double sum = 0.0, standardDeviation = 0.0;
         int length = list.size();
 
-        for(double num : list) {
+        for (double num : list) {
             sum += num;
         }
 
-        double mean = sum/length;
+        double mean = sum / length;
 
-        for(double num: list) {
+        for (double num : list) {
             standardDeviation += Math.pow(num - mean, 2);
         }
 
-        return Math.sqrt(standardDeviation/(length - 1));
+        return Math.sqrt(standardDeviation / (length - 1));
     }
-    public void onClickButton(){
-        double mean = sum(listOfReactionTimes)/listOfReactionTimes.size();
+
+    public void onClickButton() {
+        double mean = sum(listOfReactionTimes) / listOfReactionTimes.size();
         double std = calculateSD(listOfReactionTimes);
-        //String list = listOfReactionTimes.toString();
         String mean_string = String.valueOf(mean);
         String std_string = String.valueOf(std);
 
-        Intent intent = new Intent(SecondActivity.this, ResultsActivity.class );
+
+        Intent intent = new Intent(SecondActivity.this, ResultsActivity.class);
         intent.putIntegerArrayListExtra("data", (ArrayList<Integer>) listOfReactionTimes);
-        intent.putExtra("mean", mean_string);
-        intent.putExtra("std", std_string);
+        intent.putExtra("mean", mean);
+        intent.putExtra("std", std);
         startActivity(intent);
         finish();
+
+//        Bundle bundle = new Bundle();
+//        bundle.putIntegerArrayList("data", (ArrayList<Integer>) listOfReactionTimes);
+//        bundle.putDouble("mean", mean);
+//        bundle.putDouble("std", std);
+//        resultFragment.setArguments(bundle);
+
     }
 
 
@@ -157,7 +160,7 @@ public class SecondActivity extends AppCompatActivity {
 
     public int getRandomPosition() {
         Random rn = new Random();
-        return  rn.nextInt(15);
+        return rn.nextInt(15);
     }
 
 }

@@ -3,14 +3,15 @@
     <string name="title">Measuring Reaction Time</string>
     <string name="get_started">Get started</string>
     <string name="instruction">Instruction: click on the red dots as fast as you can.</string>
-    <string name="back_to_begin">Back to Start</string>
     <string name="standard_deviation_ms">Standard deviation [ms]:</string>
     <string name="mean_ms">Mean [ms]:</string>
     <string name="results">Results</string>
     <string name="list_of_times_ms">List of times [ms]:</string>
     <string name="values">Values</string>
-    <string name="back_to_start">Back to Start</string>
+    <string name="description_for_barChart">Set Bar Chart Description Here</string>
     <string name="line_chart">Line Chart</string>
     <string name="bar_chart">Bar Chart</string>
-    <string name="description_for_barChart">Set Bar Chart Description Here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back">Back</string>
 </resources>
