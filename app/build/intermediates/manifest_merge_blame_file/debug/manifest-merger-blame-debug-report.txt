@@ -48,6 +48,15 @@
 27-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:19:27-74
 28            </intent-filter>
 29        </activity>
-30    </application>
-31
-32</manifest>
+30
+31        <service
+31-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+32            android:name="androidx.room.MultiInstanceInvalidationService"
+32-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+33            android:directBootAware="true"
+33-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+34            android:exported="false" />
+34-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+35    </application>
+36
+37</manifest>

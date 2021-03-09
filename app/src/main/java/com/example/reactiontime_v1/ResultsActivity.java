@@ -1,11 +1,16 @@
 package com.example.reactiontime_v1;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -28,11 +33,11 @@ public class ResultsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
 
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
 
         Bundle extras = getIntent().getExtras();
-
-
-
         if (extras != null) {
             list = getIntent().getIntegerArrayListExtra("data");
             mean = extras.getDouble("mean");
@@ -97,7 +102,38 @@ public class ResultsActivity extends AppCompatActivity {
 
         }
         }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.results, menu);
+        return super.onCreateOptionsMenu(menu);
     }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.save:
+                saveUser();
+                break;
+
+            default:
+
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    private void saveUser(){
+        FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fm.beginTransaction();
+        AddUserFragment addUserFragment = new AddUserFragment();
+        Bundle b = new Bundle();
+        b.putIntegerArrayList("list", list);
+        b.putDouble("mean", mean);
+        b.putDouble("std", std);
+        addUserFragment.setArguments(b);
+        fragmentTransaction.add(R.id.add_user_fragment, addUserFragment).commit();
+
+    }
+}
 
 
 

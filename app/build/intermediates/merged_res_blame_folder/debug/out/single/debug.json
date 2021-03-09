@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bar_chart.xml.flat",
-        "source": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\src\\main\\res\\layout\\activity_bar_chart.xml"
-    },
-    {
         "merged": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
@@ -34,6 +30,10 @@
     {
         "merged": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\intermediates\\res\\merged\\debug\\menu_results.xml.flat",
+        "source": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\src\\main\\res\\menu\\results.xml"
     },
     {
         "merged": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -116,8 +116,8 @@
         "source": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\image_black.png"
     },
     {
-        "merged": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_line_chart.xml.flat",
-        "source": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\src\\main\\res\\layout\\activity_line_chart.xml"
+        "merged": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_user.xml.flat",
+        "source": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\src\\main\\res\\layout\\fragment_add_user.xml"
     },
     {
         "merged": "C:\\Users\\Tamara\\StudioProjects\\ReactionTime_v3\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_bar_chart.xml.flat",

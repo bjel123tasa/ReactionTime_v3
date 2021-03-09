@@ -40,9 +40,6 @@ public class LineChartFragment extends Fragment {
               //Toast.makeText(getContext(), String.valueOf(list), Toast.LENGTH_LONG).show();
 
           }
-
-
-
     }
 
     @Override

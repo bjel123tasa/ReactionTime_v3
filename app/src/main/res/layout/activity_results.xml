@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container"
     tools:context=".ResultsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme"
+        app:titleTextColor="@color/Black"
+        android:textAlignment="textStart"
+        android:background="@color/Red"
+        android:id="@+id/toolbar"/>
+
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/title"
         android:text="@string/results"
-        android:layout_alignParentTop="true"
+        android:layout_below="@id/toolbar"
         android:gravity="top"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
@@ -142,7 +154,8 @@
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
 
 
     </FrameLayout>

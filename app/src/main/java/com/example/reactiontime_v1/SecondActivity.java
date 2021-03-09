@@ -1,7 +1,8 @@
 package com.example.reactiontime_v1;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentTransaction;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -10,8 +11,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.reactiontime_v1.ReactionsAdapter.IOnnReactionClick;
@@ -22,25 +21,23 @@ import java.util.Random;
 
 public class SecondActivity extends AppCompatActivity {
 
-    private RecyclerView reactionRecyclerView;
     private ReactionsAdapter reactionsAdapter;
-
-
-    private Handler handler = new Handler();
-    private Runnable runnable;
+    private final Handler handler = new Handler();
 
     private int reactionsCounter = 0;
     private long currentTime;
-    private int failsCounter = 0;
 
-    private List<Integer> listOfReactionTimes = new ArrayList<>();
-
+    private final List<Integer> listOfReactionTimes = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        reactionRecyclerView = findViewById(R.id.reaction_recycler);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        RecyclerView reactionRecyclerView = findViewById(R.id.reaction_recycler);
 
         reactionRecyclerView.setLayoutManager(new GridLayoutManager(this, 4));
 
@@ -53,7 +50,6 @@ public class SecondActivity extends AppCompatActivity {
                     //Toast.makeText(SecondActivity.this, "Good job!", Toast.LENGTH_SHORT).show();
                     //Toast.makeText(SecondActivity.this, "Times "+ listOfReactionTimes, Toast.LENGTH_LONG).show();
                 } else {
-                    failsCounter++;
                     Toast.makeText(SecondActivity.this, ":(", Toast.LENGTH_SHORT).show();
                 }
             }
@@ -70,8 +66,6 @@ public class SecondActivity extends AppCompatActivity {
                 onClickButton();
             }
         });
-
-
     }
 
     public static double sum(List<Integer> list) {
@@ -102,9 +96,6 @@ public class SecondActivity extends AppCompatActivity {
     public void onClickButton() {
         double mean = sum(listOfReactionTimes) / listOfReactionTimes.size();
         double std = calculateSD(listOfReactionTimes);
-        String mean_string = String.valueOf(mean);
-        String std_string = String.valueOf(std);
-
 
         Intent intent = new Intent(SecondActivity.this, ResultsActivity.class);
         intent.putIntegerArrayListExtra("data", (ArrayList<Integer>) listOfReactionTimes);
@@ -113,17 +104,11 @@ public class SecondActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
 
-//        Bundle bundle = new Bundle();
-//        bundle.putIntegerArrayList("data", (ArrayList<Integer>) listOfReactionTimes);
-//        bundle.putDouble("mean", mean);
-//        bundle.putDouble("std", std);
-//        resultFragment.setArguments(bundle);
-
     }
 
 
     private void initData() {
-        runnable = new Runnable() {
+        Runnable runnable = new Runnable() {
             @Override
             public void run() {
                 if (reactionsCounter == 50) {

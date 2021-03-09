@@ -14,9 +14,9 @@ import java.util.List;
 
 public class ReactionsAdapter extends RecyclerView.Adapter<ReactionsAdapter.ViewHolder> {
 
-    private List<ReactionModel> listOfReactionModels;
-    private Context context;
-    private IOnnReactionClick onReactionClick;
+    private final List<ReactionModel> listOfReactionModels;
+    private final Context context;
+    private final IOnnReactionClick onReactionClick;
 
     public interface IOnnReactionClick {
         void reactionSelected(int position, ReactionModel reactionModel);
