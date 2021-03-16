@@ -1361,6 +1361,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add
+drawable ic_back
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
@@ -1466,7 +1468,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id add_user_fragment
 id alertTitle
 id all
 id all_users
@@ -1484,6 +1485,7 @@ id btn_get_started
 id btn_lineChart
 id buton_save
 id buttonPanel
+id button_add_user
 id button_see_results
 id cancel_action
 id cancel_button
@@ -1569,15 +1571,11 @@ id line1
 id line3
 id listMode
 id listOfTimes
-id listOfTimes2
 id listTitle
-id listTitle2
 id list_item
 id masked
 id mean
-id mean2
 id mean_res
-id mean_res2
 id media_actions
 id message
 id middle
@@ -1682,9 +1680,7 @@ id standard
 id start
 id status_bar_latest_event_content
 id std
-id std2
 id std_res
-id std_res2
 id stretch
 id submenuarrow
 id submit_area
@@ -1708,6 +1704,8 @@ id textStart
 id text_input_end_icon
 id text_input_start_icon
 id text_test
+id text_view_subtitle
+id text_view_title
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -1731,6 +1729,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_recycler
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -1800,6 +1799,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_user
+layout activity_all_users
 layout activity_main
 layout activity_results
 layout activity_second
@@ -1819,7 +1820,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_add_user
 layout fragment_bar_chart
 layout fragment_line_chart
 layout mtrl_alert_dialog
@@ -1882,6 +1882,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout user_item
 menu results
 mipmap ic_launcher
 mipmap ic_launcher_round

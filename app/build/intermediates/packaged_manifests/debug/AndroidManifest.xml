@@ -18,6 +18,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/SplashTheme" >
+        <activity
+            android:name="com.example.reactiontime_v1.AddUserActivity"
+            android:launchMode="singleTop" />
+            android:parentActivityName=".AllUsersActivity"/>
+        <activity android:name="com.example.reactiontime_v1.AllUsersActivity" />
         <activity android:name="com.example.reactiontime_v1.ResultsActivity" />
         <activity android:name="com.example.reactiontime_v1.SecondActivity" />
         <activity android:name="com.example.reactiontime_v1.MainActivity" >

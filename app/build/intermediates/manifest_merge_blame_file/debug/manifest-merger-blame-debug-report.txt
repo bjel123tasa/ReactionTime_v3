@@ -11,7 +11,7 @@
 9-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:5:5-22:19
+11-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:5:5-25:19
 12        android:allowBackup="true"
 12-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,35 +28,45 @@
 19        android:testOnly="true"
 20        android:theme="@style/SplashTheme" >
 20-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:11:9-43
-21        <activity android:name="com.example.reactiontime_v1.ResultsActivity" />
-21-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:13:9-53
-21-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:13:19-50
-22        <activity android:name="com.example.reactiontime_v1.SecondActivity" />
-22-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:14:9-52
-22-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:14:19-49
-23        <activity android:name="com.example.reactiontime_v1.MainActivity" >
-23-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:15:9-21:20
-23-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:15:19-47
-24            <intent-filter>
-24-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:16:13-20:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:17:17-69
-25-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:17:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:19:17-77
-27-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:19:27-74
-28            </intent-filter>
-29        </activity>
-30
-31        <service
-31-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
-32            android:name="androidx.room.MultiInstanceInvalidationService"
-32-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
-33            android:directBootAware="true"
-33-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
-34            android:exported="false" />
-34-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
-35    </application>
-36
-37</manifest>
+21        <activity
+21-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:12:9-13:55
+22            android:name="com.example.reactiontime_v1.AddUserActivity"
+22-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:12:19-50
+23            android:launchMode="singleTop" />
+23-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:13:13-43
+24            android:parentActivityName=".AllUsersActivity"/>
+25        <activity android:name="com.example.reactiontime_v1.AllUsersActivity" />
+25-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:15:9-54
+25-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:15:19-51
+26        <activity android:name="com.example.reactiontime_v1.ResultsActivity" />
+26-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:16:9-53
+26-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:16:19-50
+27        <activity android:name="com.example.reactiontime_v1.SecondActivity" />
+27-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:17:9-52
+27-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:17:19-49
+28        <activity android:name="com.example.reactiontime_v1.MainActivity" >
+28-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:18:9-24:20
+28-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:18:19-47
+29            <intent-filter>
+29-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:20:17-69
+30-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:22:17-77
+32-->C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+37            android:name="androidx.room.MultiInstanceInvalidationService"
+37-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+38            android:directBootAware="true"
+38-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+39            android:exported="false" />
+39-->[androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+40    </application>
+41
+42</manifest>

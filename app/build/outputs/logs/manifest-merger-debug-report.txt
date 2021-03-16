@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\1badb35df046fc2cab747c39cbe98d5d\material-1.1.0-alpha10\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\44b21666f861b2b454523071d69d07d7\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d6fdfaaabf2017e1a46426335e1b873c\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -13,14 +13,17 @@ MERGED from [androidx.fragment:fragment:1.3.0] C:\Users\Tamara\.gradle\caches\tr
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\76a75c6502d93031e6f1d463ce4e8940\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\6a8e87f523c55e5b29d9c4a3f69e8c47\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:17:1-31:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\78be485c09b159ccd6437b5ce26410a0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\2e2272ae786cbd9e32979c1ae457a8ba\jetified-activity-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\38a8c840bfeb00023f47803a2ff796ce\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\e74634e20d1ec32457b9cc4f401ffea1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\555902fbaed8c5f174fc20eaa4b7978e\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\a928fe7dc642df54d69609228a6d649e\lifecycle-livedata-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\78be485c09b159ccd6437b5ce26410a0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\90ad92d9d7e544d3d7a553e07e526cde\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\7f64c1045ae362310688a10253c2a109\media-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\921fb1c1970f14455564b73ac43ed75b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\2e2272ae786cbd9e32979c1ae457a8ba\jetified-activity-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\0c2c5f6d3e862e2628fa05275b64c18b\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\9726f16beb884e69c8392eb74d42aa95\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\4d3225ea5d57f620bf5356e2a6f066d6\customview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -32,40 +35,37 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Ta
 MERGED from [androidx.core:core:1.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\513efa8b232871d058fdda7e90972b20\core-1.3.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\082141e7a08ecc0568dc277abb6b2eb2\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\1b49f6b12087442447a2c9046372b97f\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\38a8c840bfeb00023f47803a2ff796ce\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\555902fbaed8c5f174fc20eaa4b7978e\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\848758cc9d7219eb09821cfc25f727fb\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\46cb1a4d108400fae8aa890994cc503d\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\4be9d11bba6a5edbd5817409ba34d404\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5273b249991fbc2196913da0e33ce3a\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\33d837e2a3a055709c16429b16477bfb\lifecycle-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\07966c8c4706ffeaf638d555f4c86fb0\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41c41c2fbc05e9a19fa443c48f799c3d\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\634f2f03e50a0eb4514a8d791ceb2f13\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\054d779a91766207571d826869795163\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\33d837e2a3a055709c16429b16477bfb\lifecycle-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\e43b6d8aa514061eb6410d92a2869947\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\5e93b9f41c3983a761aa6e19533f24ec\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5273b249991fbc2196913da0e33ce3a\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\1badb35df046fc2cab747c39cbe98d5d\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\1badb35df046fc2cab747c39cbe98d5d\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d6fdfaaabf2017e1a46426335e1b873c\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -90,28 +90,38 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ta
 		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:11:9-43
+activity#com.example.reactiontime_v1.AddUserActivity
+ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:12:9-13:55
+	android:launchMode
+		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:13:13-43
+	android:name
+		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:12:19-50
+activity#com.example.reactiontime_v1.AllUsersActivity
+ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:15:9-54
+	android:name
+		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:15:19-51
 activity#com.example.reactiontime_v1.ResultsActivity
-ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:13:9-53
+ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:16:9-53
 	android:name
-		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:13:19-50
+		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:16:19-50
 activity#com.example.reactiontime_v1.SecondActivity
-ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:14:9-52
+ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:17:9-52
 	android:name
-		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:14:19-49
+		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:17:19-49
 activity#com.example.reactiontime_v1.MainActivity
-ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml
@@ -134,22 +144,28 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Tamara\.gradle\caches\tr
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\6a8e87f523c55e5b29d9c4a3f69e8c47\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41d0ef89919f6cf380370bafbc1a6aea\room-runtime-2.2.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\78be485c09b159ccd6437b5ce26410a0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\78be485c09b159ccd6437b5ce26410a0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\2e2272ae786cbd9e32979c1ae457a8ba\jetified-activity-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\2e2272ae786cbd9e32979c1ae457a8ba\jetified-activity-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\38a8c840bfeb00023f47803a2ff796ce\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\38a8c840bfeb00023f47803a2ff796ce\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\e74634e20d1ec32457b9cc4f401ffea1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\e74634e20d1ec32457b9cc4f401ffea1\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\555902fbaed8c5f174fc20eaa4b7978e\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\555902fbaed8c5f174fc20eaa4b7978e\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\a928fe7dc642df54d69609228a6d649e\lifecycle-livedata-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\a928fe7dc642df54d69609228a6d649e\lifecycle-livedata-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\78be485c09b159ccd6437b5ce26410a0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\78be485c09b159ccd6437b5ce26410a0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\90ad92d9d7e544d3d7a553e07e526cde\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\90ad92d9d7e544d3d7a553e07e526cde\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\7f64c1045ae362310688a10253c2a109\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\7f64c1045ae362310688a10253c2a109\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\921fb1c1970f14455564b73ac43ed75b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\921fb1c1970f14455564b73ac43ed75b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\2e2272ae786cbd9e32979c1ae457a8ba\jetified-activity-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.2.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\2e2272ae786cbd9e32979c1ae457a8ba\jetified-activity-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\0c2c5f6d3e862e2628fa05275b64c18b\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\0c2c5f6d3e862e2628fa05275b64c18b\coordinatorlayout-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\9726f16beb884e69c8392eb74d42aa95\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
@@ -172,16 +188,18 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Tamara\.gradle
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\082141e7a08ecc0568dc277abb6b2eb2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\1b49f6b12087442447a2c9046372b97f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\1b49f6b12087442447a2c9046372b97f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\38a8c840bfeb00023f47803a2ff796ce\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\38a8c840bfeb00023f47803a2ff796ce\jetified-lifecycle-viewmodel-savedstate-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\555902fbaed8c5f174fc20eaa4b7978e\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\555902fbaed8c5f174fc20eaa4b7978e\lifecycle-viewmodel-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\848758cc9d7219eb09821cfc25f727fb\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\848758cc9d7219eb09821cfc25f727fb\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\46cb1a4d108400fae8aa890994cc503d\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\46cb1a4d108400fae8aa890994cc503d\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\4be9d11bba6a5edbd5817409ba34d404\sqlite-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\4be9d11bba6a5edbd5817409ba34d404\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5273b249991fbc2196913da0e33ce3a\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5273b249991fbc2196913da0e33ce3a\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\33d837e2a3a055709c16429b16477bfb\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\33d837e2a3a055709c16429b16477bfb\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\07966c8c4706ffeaf638d555f4c86fb0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\07966c8c4706ffeaf638d555f4c86fb0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\41c41c2fbc05e9a19fa443c48f799c3d\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
@@ -190,16 +208,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Tamara\.gradle\caches\transfor
 MERGED from [androidx.print:print:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\634f2f03e50a0eb4514a8d791ceb2f13\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\054d779a91766207571d826869795163\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\054d779a91766207571d826869795163\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\33d837e2a3a055709c16429b16477bfb\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\33d837e2a3a055709c16429b16477bfb\lifecycle-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\e43b6d8aa514061eb6410d92a2869947\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\e43b6d8aa514061eb6410d92a2869947\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\5e93b9f41c3983a761aa6e19533f24ec\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\5e93b9f41c3983a761aa6e19533f24ec\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5273b249991fbc2196913da0e33ce3a\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5273b249991fbc2196913da0e33ce3a\lifecycle-livedata-core-2.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Tamara\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\Tamara\StudioProjects\ReactionTime_v3\app\src\main\AndroidManifest.xml

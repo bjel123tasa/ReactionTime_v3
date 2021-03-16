@@ -2,10 +2,10 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "9c3b76399190fdcf1d8a128a2c471416",
+    "identityHash": "d131d83a44c6e8ed958655eebefcbd52",
     "entities": [
       {
-        "tableName": "User",
+        "tableName": "users",
         "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT, `mean` REAL, `std` REAL)",
         "fields": [
           {
@@ -41,12 +41,44 @@
         },
         "indices": [],
         "foreignKeys": []
+      },
+      {
+        "tableName": "timeReaction",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`reactionId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `times` TEXT, `user_id` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "reactionId",
+            "columnName": "reactionId",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "times",
+            "columnName": "times",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "user_id",
+            "columnName": "user_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "reactionId"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
       }
     ],
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '9c3b76399190fdcf1d8a128a2c471416')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'd131d83a44c6e8ed958655eebefcbd52')"
     ]
   }
 }

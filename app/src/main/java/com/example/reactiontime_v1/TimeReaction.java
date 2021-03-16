@@ -3,42 +3,33 @@ package com.example.reactiontime_v1;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.ForeignKey;
+import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 import java.util.ArrayList;
 
-@Entity(foreignKeys = @ForeignKey(entity = TimeReaction.class, parentColumns = "timeReactionId", childColumns = "user_id"))
+@Entity(tableName = "timeReaction")
 public class TimeReaction {
 
     @PrimaryKey(autoGenerate = true)
-    private int timeReactioId;
+    private int reactionId;
 
-    private ArrayList<Integer> times;
+    private String times;
 
     private int user_id;
-
-    public TimeReaction(int timeReactionId, ArrayList<Integer> times, int user_id) {
-        this.timeReactioId = timeReactionId;
-        this.times = times;
-        this.user_id = user_id;
-    }
 
     public TimeReaction() {
     }
 
-    public int getId() {
-        return timeReactioId;
+    public TimeReaction(int i){
+        this.reactionId = i;
     }
 
-    public void setId(int id) {
-        this.timeReactioId = id;
-    }
-
-    public ArrayList<Integer> getTimes() {
+    public String getTimes() {
         return times;
     }
 
-    public void setTimes(ArrayList<Integer> times) {
+    public void setTimes(String times) {
         this.times = times;
     }
 
@@ -48,6 +39,14 @@ public class TimeReaction {
 
     public void setUser_id(int user_id) {
         this.user_id = user_id;
+    }
+
+    public int getReactionId() {
+        return reactionId;
+    }
+
+    public void setReactionId(int reactionId) {
+        this.reactionId = reactionId;
     }
 }
 

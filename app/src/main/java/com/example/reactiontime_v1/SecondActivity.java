@@ -3,6 +3,8 @@ package com.example.reactiontime_v1;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -96,8 +98,15 @@ public class SecondActivity extends AppCompatActivity {
     public void onClickButton() {
         double mean = sum(listOfReactionTimes) / listOfReactionTimes.size();
         double std = calculateSD(listOfReactionTimes);
+        //ArrayList<String> listOfStrings = new ArrayList<>();
+
+//        for (int i: listOfReactionTimes){
+//            listOfStrings.add(String.valueOf(i));
+//            return;
+//        }
 
         Intent intent = new Intent(SecondActivity.this, ResultsActivity.class);
+        //intent.putStringArrayListExtra("dataString", listOfStrings);
         intent.putIntegerArrayListExtra("data", (ArrayList<Integer>) listOfReactionTimes);
         intent.putExtra("mean", mean);
         intent.putExtra("std", std);

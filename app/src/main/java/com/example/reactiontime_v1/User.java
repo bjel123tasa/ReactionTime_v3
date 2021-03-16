@@ -2,11 +2,12 @@ package com.example.reactiontime_v1;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
+import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 import java.io.Serializable;
 
 @Entity(tableName = "users")
-public class User implements Serializable {
+public class User {
 
     @PrimaryKey(autoGenerate = true)
     private int id;
@@ -17,8 +18,8 @@ public class User implements Serializable {
 
     private Double std;
 
-    public User(int id, String name, Double mean, Double std) {
-        this.id = id;
+    @Ignore
+    public User(String name, Double mean, Double std) {
         this.name = name;
         this.mean = mean;
         this.std = std;

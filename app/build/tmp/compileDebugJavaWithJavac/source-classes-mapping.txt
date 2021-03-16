@@ -3,22 +3,33 @@ com/example/reactiontime_v1/ReactionsAdapter.java
  com.example.reactiontime_v1.ReactionsAdapter$1
  com.example.reactiontime_v1.ReactionsAdapter$IOnnReactionClick
  com.example.reactiontime_v1.ReactionsAdapter$ViewHolder
-com/example/reactiontime_v1/AddUserFragment.java
- com.example.reactiontime_v1.AddUserFragment
- com.example.reactiontime_v1.AddUserFragment$1
- com.example.reactiontime_v1.AddUserFragment$1SaveUser
- com.example.reactiontime_v1.AddUserFragment$1SaveUser$1
- com.example.reactiontime_v1.AddUserFragment$1SaveUser$1$1
 com/example/reactiontime_v1/BarChartFragment.java
  com.example.reactiontime_v1.BarChartFragment
+com/example/reactiontime_v1/UserRepository.java
+ com.example.reactiontime_v1.UserRepository
+ com.example.reactiontime_v1.UserRepository$1
+ com.example.reactiontime_v1.UserRepository$2
+ com.example.reactiontime_v1.UserRepository$3
 com/example/reactiontime_v1/AppDatabase.java
  com.example.reactiontime_v1.AppDatabase
+ com.example.reactiontime_v1.AppDatabase$1
+ com.example.reactiontime_v1.AppDatabase$PopulateDbAsyncTask
 com/example/reactiontime_v1/BuildConfig.java
  com.example.reactiontime_v1.BuildConfig
-com/example/reactiontime_v1/DatabaseClient.java
- com.example.reactiontime_v1.DatabaseClient
+com/example/reactiontime_v1/UserViewModel.java
+ com.example.reactiontime_v1.UserViewModel
+com/example/reactiontime_v1/AllUsersActivity.java
+ com.example.reactiontime_v1.AllUsersActivity
+ com.example.reactiontime_v1.AllUsersActivity$1
+ com.example.reactiontime_v1.AllUsersActivity$2
 com/example/reactiontime_v1/ReactionModel.java
  com.example.reactiontime_v1.ReactionModel
+com/example/reactiontime_v1/AddUserActivity.java
+ com.example.reactiontime_v1.AddUserActivity
+ com.example.reactiontime_v1.AddUserActivity$1
+com/example/reactiontime_v1/UserAdapter.java
+ com.example.reactiontime_v1.UserAdapter
+ com.example.reactiontime_v1.UserAdapter$UserHolder
 com/example/reactiontime_v1/LineChartFragment.java
  com.example.reactiontime_v1.LineChartFragment
 com/example/reactiontime_v1/User.java
@@ -31,12 +42,14 @@ com/example/reactiontime_v1/ResultsActivity.java
 com/example/reactiontime_v1/MainActivity.java
  com.example.reactiontime_v1.MainActivity
  com.example.reactiontime_v1.MainActivity$1
+com/example/reactiontime_v1/UserWithTimeReaction.java
+ com.example.reactiontime_v1.UserWithTimeReaction
 com/example/reactiontime_v1/UserDao.java
  com.example.reactiontime_v1.UserDao
+com/example/reactiontime_v1/TimeReaction.java
+ com.example.reactiontime_v1.TimeReaction
 com/example/reactiontime_v1/SecondActivity.java
  com.example.reactiontime_v1.SecondActivity
  com.example.reactiontime_v1.SecondActivity$1
  com.example.reactiontime_v1.SecondActivity$2
  com.example.reactiontime_v1.SecondActivity$3
-com/example/reactiontime_v1/TimeReaction.java
- com.example.reactiontime_v1.TimeReaction

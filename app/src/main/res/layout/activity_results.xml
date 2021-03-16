@@ -12,9 +12,9 @@
         android:layout_height="?actionBarSize"
         android:elevation="4dp"
         android:theme="@style/AppTheme"
-        app:titleTextColor="@color/Black"
+        app:titleTextColor="@color/White"
         android:textAlignment="textStart"
-        android:background="@color/Red"
+        android:background="@color/Black"
         android:id="@+id/toolbar"/>
 
 

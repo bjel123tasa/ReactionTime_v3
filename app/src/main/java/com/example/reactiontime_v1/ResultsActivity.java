@@ -6,6 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.lifecycle.ViewModelStore;
+import androidx.lifecycle.ViewModelStoreOwner;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,12 +24,10 @@ import java.util.ArrayList;
 
 
 public class ResultsActivity extends AppCompatActivity {
-
-
-
-    ArrayList<Integer> list;
-    Double mean;
-    Double std;
+    private ArrayList<Integer> list;
+    private ArrayList<String> listString;
+    private Double mean;
+    private Double std;
 
 
     @Override
@@ -40,6 +42,7 @@ public class ResultsActivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             list = getIntent().getIntegerArrayListExtra("data");
+            //listString = getIntent().getStringArrayListExtra("listString");
             mean = extras.getDouble("mean");
             std = extras.getDouble("std");
 
@@ -113,7 +116,12 @@ public class ResultsActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.save:
-                saveUser();
+                Intent intent = new Intent(this, AllUsersActivity.class);
+                intent.putExtra("mean", mean);
+                intent.putExtra("list", list);
+                intent.putExtra("std", std);
+                intent.putStringArrayListExtra("listString", listString);
+                startActivity(intent);
                 break;
 
             default:
@@ -121,18 +129,8 @@ public class ResultsActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-    private void saveUser(){
-        FragmentManager fm = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fm.beginTransaction();
-        AddUserFragment addUserFragment = new AddUserFragment();
-        Bundle b = new Bundle();
-        b.putIntegerArrayList("list", list);
-        b.putDouble("mean", mean);
-        b.putDouble("std", std);
-        addUserFragment.setArguments(b);
-        fragmentTransaction.add(R.id.add_user_fragment, addUserFragment).commit();
 
-    }
+
 }
 
 

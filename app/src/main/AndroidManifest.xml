@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/SplashTheme">
-
+        <activity android:name=".AddUserActivity"
+            android:launchMode="singleTop"></activity>
+            android:parentActivityName=".AllUsersActivity"/>
+        <activity android:name=".AllUsersActivity" />
         <activity android:name=".ResultsActivity" />
         <activity android:name=".SecondActivity" />
         <activity android:name=".MainActivity">
